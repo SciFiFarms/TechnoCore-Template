@@ -44,6 +44,8 @@ services:
       #  # Traefik service that listens to HTTPS
       #  - traefik.webservice.frontend.entryPoints=https
         - com.ouroboros.enable=true
+        #- user-provided-secret-dns_token=example_service dns_token
+        #- user-provided-secret-dns_user=example_service dns_user
       mode: global
       restart_policy:
         condition: any
