@@ -39,3 +39,4 @@ set_service_flag $service_name
 #set_optional_service mqtt
 #set_optional_service pgadmin
 #set_optional_service syncthing
+set_optional_service prometheus
